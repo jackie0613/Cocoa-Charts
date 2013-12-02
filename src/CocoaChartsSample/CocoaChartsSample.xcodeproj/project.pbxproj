@@ -7,6 +7,191 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39F279AB184C580E00B5A19C /* CCSAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278CE184C580D00B5A19C /* CCSAxis.m */; };
+		39F279AC184C580E00B5A19C /* CCSAxisLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278D0184C580D00B5A19C /* CCSAxisLayerView.m */; };
+		39F279AD184C580E00B5A19C /* CCSBackgroundLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278D2184C580D00B5A19C /* CCSBackgroundLayerView.m */; };
+		39F279AF184C580E00B5A19C /* CCSBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278D6184C580D00B5A19C /* CCSBaseModel.m */; };
+		39F279B0184C580E00B5A19C /* CCSBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278D8184C580D00B5A19C /* CCSBaseView.m */; };
+		39F279B1184C580E00B5A19C /* CCSChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278DA184C580D00B5A19C /* CCSChartData.m */; };
+		39F279B2184C580E00B5A19C /* CCSChartModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278DD184C580D00B5A19C /* CCSChartModel.m */; };
+		39F279B3184C580E00B5A19C /* CCSChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278DF184C580D00B5A19C /* CCSChartView.m */; };
+		39F279B4184C580E00B5A19C /* CCSCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278E1184C580D00B5A19C /* CCSCoordinate.m */; };
+		39F279B5184C580E00B5A19C /* CCSCrossLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278E4184C580D00B5A19C /* CCSCrossLine.m */; };
+		39F279B6184C580E00B5A19C /* CCSCurve.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278E6184C580D00B5A19C /* CCSCurve.m */; };
+		39F279B7184C580E00B5A19C /* CCSGraphicsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278E8184C580D00B5A19C /* CCSGraphicsView.m */; };
+		39F279B8184C580E00B5A19C /* CCSLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278EB184C580D00B5A19C /* CCSLayerView.m */; };
+		39F279B9184C580E00B5A19C /* CCSMask.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278ED184C580D00B5A19C /* CCSMask.m */; };
+		39F279BA184C580E00B5A19C /* CCSMaskLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278EF184C580D00B5A19C /* CCSMaskLayerView.m */; };
+		39F279BB184C580E00B5A19C /* CCSNormalLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278F1184C580D00B5A19C /* CCSNormalLayerView.m */; };
+		39F279BC184C580E00B5A19C /* CCSOriginalPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278F3184C580D00B5A19C /* CCSOriginalPoint.m */; };
+		39F279BD184C580E00B5A19C /* CCSTouchLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F278F6184C580D00B5A19C /* CCSTouchLayerView.m */; };
+		39F279BE184C580E00B5A19C /* ta_global.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27900184C580D00B5A19C /* ta_global.c */; };
+		39F279BF184C580E00B5A19C /* ta_retcode.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27905184C580D00B5A19C /* ta_retcode.c */; };
+		39F279C0184C580E00B5A19C /* ta_retcode.csv in Resources */ = {isa = PBXBuildFile; fileRef = 39F27906184C580D00B5A19C /* ta_retcode.csv */; };
+		39F279C1184C580E00B5A19C /* ta_version.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27907184C580D00B5A19C /* ta_version.c */; };
+		39F279C2184C580E00B5A19C /* ta_ACOS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27909184C580D00B5A19C /* ta_ACOS.c */; };
+		39F279C3184C580E00B5A19C /* ta_AD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790A184C580D00B5A19C /* ta_AD.c */; };
+		39F279C4184C580E00B5A19C /* ta_ADD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790B184C580D00B5A19C /* ta_ADD.c */; };
+		39F279C5184C580E00B5A19C /* ta_ADOSC.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790C184C580D00B5A19C /* ta_ADOSC.c */; };
+		39F279C6184C580E00B5A19C /* ta_ADX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790D184C580D00B5A19C /* ta_ADX.c */; };
+		39F279C7184C580E00B5A19C /* ta_ADXR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790E184C580D00B5A19C /* ta_ADXR.c */; };
+		39F279C8184C580E00B5A19C /* ta_APO.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2790F184C580D00B5A19C /* ta_APO.c */; };
+		39F279C9184C580E00B5A19C /* ta_AROON.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27910184C580D00B5A19C /* ta_AROON.c */; };
+		39F279CA184C580E00B5A19C /* ta_AROONOSC.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27911184C580D00B5A19C /* ta_AROONOSC.c */; };
+		39F279CB184C580E00B5A19C /* ta_ASIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27912184C580D00B5A19C /* ta_ASIN.c */; };
+		39F279CC184C580E00B5A19C /* ta_ATAN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27913184C580D00B5A19C /* ta_ATAN.c */; };
+		39F279CD184C580E00B5A19C /* ta_ATR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27914184C580D00B5A19C /* ta_ATR.c */; };
+		39F279CE184C580E00B5A19C /* ta_AVGPRICE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27915184C580D00B5A19C /* ta_AVGPRICE.c */; };
+		39F279CF184C580E00B5A19C /* ta_BBANDS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27916184C580D00B5A19C /* ta_BBANDS.c */; };
+		39F279D0184C580E00B5A19C /* ta_BETA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27917184C580D00B5A19C /* ta_BETA.c */; };
+		39F279D1184C580E00B5A19C /* ta_BOP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27918184C580D00B5A19C /* ta_BOP.c */; };
+		39F279D2184C580E00B5A19C /* ta_CCI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27919184C580D00B5A19C /* ta_CCI.c */; };
+		39F279D3184C580E00B5A19C /* ta_CDL2CROWS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791A184C580D00B5A19C /* ta_CDL2CROWS.c */; };
+		39F279D4184C580E00B5A19C /* ta_CDL3BLACKCROWS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791B184C580D00B5A19C /* ta_CDL3BLACKCROWS.c */; };
+		39F279D5184C580E00B5A19C /* ta_CDL3INSIDE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791C184C580D00B5A19C /* ta_CDL3INSIDE.c */; };
+		39F279D6184C580E00B5A19C /* ta_CDL3LINESTRIKE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791D184C580D00B5A19C /* ta_CDL3LINESTRIKE.c */; };
+		39F279D7184C580E00B5A19C /* ta_CDL3OUTSIDE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791E184C580D00B5A19C /* ta_CDL3OUTSIDE.c */; };
+		39F279D8184C580E00B5A19C /* ta_CDL3STARSINSOUTH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2791F184C580D00B5A19C /* ta_CDL3STARSINSOUTH.c */; };
+		39F279D9184C580E00B5A19C /* ta_CDL3WHITESOLDIERS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27920184C580D00B5A19C /* ta_CDL3WHITESOLDIERS.c */; };
+		39F279DA184C580E00B5A19C /* ta_CDLABANDONEDBABY.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27921184C580D00B5A19C /* ta_CDLABANDONEDBABY.c */; };
+		39F279DB184C580E00B5A19C /* ta_CDLADVANCEBLOCK.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27922184C580D00B5A19C /* ta_CDLADVANCEBLOCK.c */; };
+		39F279DC184C580E00B5A19C /* ta_CDLBELTHOLD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27923184C580D00B5A19C /* ta_CDLBELTHOLD.c */; };
+		39F279DD184C580E00B5A19C /* ta_CDLBREAKAWAY.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27924184C580D00B5A19C /* ta_CDLBREAKAWAY.c */; };
+		39F279DE184C580E00B5A19C /* ta_CDLCLOSINGMARUBOZU.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27925184C580D00B5A19C /* ta_CDLCLOSINGMARUBOZU.c */; };
+		39F279DF184C580E00B5A19C /* ta_CDLCONCEALBABYSWALL.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27926184C580D00B5A19C /* ta_CDLCONCEALBABYSWALL.c */; };
+		39F279E0184C580E00B5A19C /* ta_CDLCOUNTERATTACK.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27927184C580D00B5A19C /* ta_CDLCOUNTERATTACK.c */; };
+		39F279E1184C580E00B5A19C /* ta_CDLDARKCLOUDCOVER.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27928184C580D00B5A19C /* ta_CDLDARKCLOUDCOVER.c */; };
+		39F279E2184C580E00B5A19C /* ta_CDLDOJI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27929184C580D00B5A19C /* ta_CDLDOJI.c */; };
+		39F279E3184C580E00B5A19C /* ta_CDLDOJISTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792A184C580D00B5A19C /* ta_CDLDOJISTAR.c */; };
+		39F279E4184C580E00B5A19C /* ta_CDLDRAGONFLYDOJI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792B184C580D00B5A19C /* ta_CDLDRAGONFLYDOJI.c */; };
+		39F279E5184C580E00B5A19C /* ta_CDLENGULFING.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792C184C580D00B5A19C /* ta_CDLENGULFING.c */; };
+		39F279E6184C580E00B5A19C /* ta_CDLEVENINGDOJISTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792D184C580D00B5A19C /* ta_CDLEVENINGDOJISTAR.c */; };
+		39F279E7184C580E00B5A19C /* ta_CDLEVENINGSTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792E184C580D00B5A19C /* ta_CDLEVENINGSTAR.c */; };
+		39F279E8184C580E00B5A19C /* ta_CDLGAPSIDESIDEWHITE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2792F184C580D00B5A19C /* ta_CDLGAPSIDESIDEWHITE.c */; };
+		39F279E9184C580E00B5A19C /* ta_CDLGRAVESTONEDOJI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27930184C580D00B5A19C /* ta_CDLGRAVESTONEDOJI.c */; };
+		39F279EA184C580E00B5A19C /* ta_CDLHAMMER.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27931184C580D00B5A19C /* ta_CDLHAMMER.c */; };
+		39F279EB184C580E00B5A19C /* ta_CDLHANGINGMAN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27932184C580D00B5A19C /* ta_CDLHANGINGMAN.c */; };
+		39F279EC184C580E00B5A19C /* ta_CDLHARAMI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27933184C580D00B5A19C /* ta_CDLHARAMI.c */; };
+		39F279ED184C580E00B5A19C /* ta_CDLHARAMICROSS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27934184C580D00B5A19C /* ta_CDLHARAMICROSS.c */; };
+		39F279EE184C580E00B5A19C /* ta_CDLHIGHWAVE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27935184C580D00B5A19C /* ta_CDLHIGHWAVE.c */; };
+		39F279EF184C580E00B5A19C /* ta_CDLHIKKAKE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27936184C580D00B5A19C /* ta_CDLHIKKAKE.c */; };
+		39F279F0184C580E00B5A19C /* ta_CDLHIKKAKEMOD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27937184C580D00B5A19C /* ta_CDLHIKKAKEMOD.c */; };
+		39F279F1184C580E00B5A19C /* ta_CDLHOMINGPIGEON.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27938184C580D00B5A19C /* ta_CDLHOMINGPIGEON.c */; };
+		39F279F2184C580E00B5A19C /* ta_CDLIDENTICAL3CROWS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27939184C580D00B5A19C /* ta_CDLIDENTICAL3CROWS.c */; };
+		39F279F3184C580E00B5A19C /* ta_CDLINNECK.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793A184C580D00B5A19C /* ta_CDLINNECK.c */; };
+		39F279F4184C580E00B5A19C /* ta_CDLINVERTEDHAMMER.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793B184C580D00B5A19C /* ta_CDLINVERTEDHAMMER.c */; };
+		39F279F5184C580E00B5A19C /* ta_CDLKICKING.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793C184C580D00B5A19C /* ta_CDLKICKING.c */; };
+		39F279F6184C580E00B5A19C /* ta_CDLKICKINGBYLENGTH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793D184C580D00B5A19C /* ta_CDLKICKINGBYLENGTH.c */; };
+		39F279F7184C580E00B5A19C /* ta_CDLLADDERBOTTOM.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793E184C580D00B5A19C /* ta_CDLLADDERBOTTOM.c */; };
+		39F279F8184C580E00B5A19C /* ta_CDLLONGLEGGEDDOJI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2793F184C580D00B5A19C /* ta_CDLLONGLEGGEDDOJI.c */; };
+		39F279F9184C580E00B5A19C /* ta_CDLLONGLINE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27940184C580D00B5A19C /* ta_CDLLONGLINE.c */; };
+		39F279FA184C580E00B5A19C /* ta_CDLMARUBOZU.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27941184C580D00B5A19C /* ta_CDLMARUBOZU.c */; };
+		39F279FB184C580E00B5A19C /* ta_CDLMATCHINGLOW.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27942184C580D00B5A19C /* ta_CDLMATCHINGLOW.c */; };
+		39F279FC184C580E00B5A19C /* ta_CDLMATHOLD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27943184C580D00B5A19C /* ta_CDLMATHOLD.c */; };
+		39F279FD184C580E00B5A19C /* ta_CDLMORNINGDOJISTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27944184C580D00B5A19C /* ta_CDLMORNINGDOJISTAR.c */; };
+		39F279FE184C580E00B5A19C /* ta_CDLMORNINGSTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27945184C580D00B5A19C /* ta_CDLMORNINGSTAR.c */; };
+		39F279FF184C580E00B5A19C /* ta_CDLONNECK.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27946184C580D00B5A19C /* ta_CDLONNECK.c */; };
+		39F27A00184C580E00B5A19C /* ta_CDLPIERCING.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27947184C580D00B5A19C /* ta_CDLPIERCING.c */; };
+		39F27A01184C580E00B5A19C /* ta_CDLRICKSHAWMAN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27948184C580D00B5A19C /* ta_CDLRICKSHAWMAN.c */; };
+		39F27A02184C580E00B5A19C /* ta_CDLRISEFALL3METHODS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27949184C580D00B5A19C /* ta_CDLRISEFALL3METHODS.c */; };
+		39F27A03184C580E00B5A19C /* ta_CDLSEPARATINGLINES.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794A184C580D00B5A19C /* ta_CDLSEPARATINGLINES.c */; };
+		39F27A04184C580E00B5A19C /* ta_CDLSHOOTINGSTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794B184C580D00B5A19C /* ta_CDLSHOOTINGSTAR.c */; };
+		39F27A05184C580E00B5A19C /* ta_CDLSHORTLINE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794C184C580D00B5A19C /* ta_CDLSHORTLINE.c */; };
+		39F27A06184C580E00B5A19C /* ta_CDLSPINNINGTOP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794D184C580D00B5A19C /* ta_CDLSPINNINGTOP.c */; };
+		39F27A07184C580E00B5A19C /* ta_CDLSTALLEDPATTERN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794E184C580D00B5A19C /* ta_CDLSTALLEDPATTERN.c */; };
+		39F27A08184C580E00B5A19C /* ta_CDLSTICKSANDWICH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2794F184C580D00B5A19C /* ta_CDLSTICKSANDWICH.c */; };
+		39F27A09184C580E00B5A19C /* ta_CDLTAKURI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27950184C580D00B5A19C /* ta_CDLTAKURI.c */; };
+		39F27A0A184C580E00B5A19C /* ta_CDLTASUKIGAP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27951184C580D00B5A19C /* ta_CDLTASUKIGAP.c */; };
+		39F27A0B184C580E00B5A19C /* ta_CDLTHRUSTING.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27952184C580D00B5A19C /* ta_CDLTHRUSTING.c */; };
+		39F27A0C184C580E00B5A19C /* ta_CDLTRISTAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27953184C580D00B5A19C /* ta_CDLTRISTAR.c */; };
+		39F27A0D184C580E00B5A19C /* ta_CDLUNIQUE3RIVER.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27954184C580D00B5A19C /* ta_CDLUNIQUE3RIVER.c */; };
+		39F27A0E184C580E00B5A19C /* ta_CDLUPSIDEGAP2CROWS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27955184C580D00B5A19C /* ta_CDLUPSIDEGAP2CROWS.c */; };
+		39F27A0F184C580E00B5A19C /* ta_CDLXSIDEGAP3METHODS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27956184C580D00B5A19C /* ta_CDLXSIDEGAP3METHODS.c */; };
+		39F27A10184C580E00B5A19C /* ta_CEIL.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27957184C580D00B5A19C /* ta_CEIL.c */; };
+		39F27A11184C580E00B5A19C /* ta_CMO.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27958184C580D00B5A19C /* ta_CMO.c */; };
+		39F27A12184C580E00B5A19C /* ta_CORREL.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27959184C580E00B5A19C /* ta_CORREL.c */; };
+		39F27A13184C580E00B5A19C /* ta_COS.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795A184C580E00B5A19C /* ta_COS.c */; };
+		39F27A14184C580E00B5A19C /* ta_COSH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795B184C580E00B5A19C /* ta_COSH.c */; };
+		39F27A15184C580E00B5A19C /* ta_DEMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795C184C580E00B5A19C /* ta_DEMA.c */; };
+		39F27A16184C580E00B5A19C /* ta_DIV.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795D184C580E00B5A19C /* ta_DIV.c */; };
+		39F27A17184C580E00B5A19C /* ta_DX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795E184C580E00B5A19C /* ta_DX.c */; };
+		39F27A18184C580E00B5A19C /* ta_EMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2795F184C580E00B5A19C /* ta_EMA.c */; };
+		39F27A19184C580E00B5A19C /* ta_EXP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27960184C580E00B5A19C /* ta_EXP.c */; };
+		39F27A1A184C580E00B5A19C /* ta_FLOOR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27961184C580E00B5A19C /* ta_FLOOR.c */; };
+		39F27A1B184C580E00B5A19C /* ta_HT_DCPERIOD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27962184C580E00B5A19C /* ta_HT_DCPERIOD.c */; };
+		39F27A1C184C580E00B5A19C /* ta_HT_DCPHASE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27963184C580E00B5A19C /* ta_HT_DCPHASE.c */; };
+		39F27A1D184C580E00B5A19C /* ta_HT_PHASOR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27964184C580E00B5A19C /* ta_HT_PHASOR.c */; };
+		39F27A1E184C580E00B5A19C /* ta_HT_SINE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27965184C580E00B5A19C /* ta_HT_SINE.c */; };
+		39F27A1F184C580E00B5A19C /* ta_HT_TRENDLINE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27966184C580E00B5A19C /* ta_HT_TRENDLINE.c */; };
+		39F27A20184C580E00B5A19C /* ta_HT_TRENDMODE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27967184C580E00B5A19C /* ta_HT_TRENDMODE.c */; };
+		39F27A21184C580E00B5A19C /* ta_KAMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27968184C580E00B5A19C /* ta_KAMA.c */; };
+		39F27A22184C580E00B5A19C /* ta_LINEARREG.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27969184C580E00B5A19C /* ta_LINEARREG.c */; };
+		39F27A23184C580E00B5A19C /* ta_LINEARREG_ANGLE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796A184C580E00B5A19C /* ta_LINEARREG_ANGLE.c */; };
+		39F27A24184C580E00B5A19C /* ta_LINEARREG_INTERCEPT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796B184C580E00B5A19C /* ta_LINEARREG_INTERCEPT.c */; };
+		39F27A25184C580E00B5A19C /* ta_LINEARREG_SLOPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796C184C580E00B5A19C /* ta_LINEARREG_SLOPE.c */; };
+		39F27A26184C580E00B5A19C /* ta_LN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796D184C580E00B5A19C /* ta_LN.c */; };
+		39F27A27184C580E00B5A19C /* ta_LOG10.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796E184C580E00B5A19C /* ta_LOG10.c */; };
+		39F27A28184C580E00B5A19C /* ta_MA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2796F184C580E00B5A19C /* ta_MA.c */; };
+		39F27A29184C580E00B5A19C /* ta_MACD.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27970184C580E00B5A19C /* ta_MACD.c */; };
+		39F27A2A184C580E00B5A19C /* ta_MACDEXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27971184C580E00B5A19C /* ta_MACDEXT.c */; };
+		39F27A2B184C580E00B5A19C /* ta_MACDFIX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27972184C580E00B5A19C /* ta_MACDFIX.c */; };
+		39F27A2C184C580E00B5A19C /* ta_MAMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27973184C580E00B5A19C /* ta_MAMA.c */; };
+		39F27A2D184C580E00B5A19C /* ta_MAVP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27974184C580E00B5A19C /* ta_MAVP.c */; };
+		39F27A2E184C580E00B5A19C /* ta_MAX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27975184C580E00B5A19C /* ta_MAX.c */; };
+		39F27A2F184C580E00B5A19C /* ta_MAXINDEX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27976184C580E00B5A19C /* ta_MAXINDEX.c */; };
+		39F27A30184C580E00B5A19C /* ta_MEDPRICE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27977184C580E00B5A19C /* ta_MEDPRICE.c */; };
+		39F27A31184C580E00B5A19C /* ta_MFI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27978184C580E00B5A19C /* ta_MFI.c */; };
+		39F27A32184C580E00B5A19C /* ta_MIDPOINT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27979184C580E00B5A19C /* ta_MIDPOINT.c */; };
+		39F27A33184C580E00B5A19C /* ta_MIDPRICE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797A184C580E00B5A19C /* ta_MIDPRICE.c */; };
+		39F27A34184C580E00B5A19C /* ta_MIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797B184C580E00B5A19C /* ta_MIN.c */; };
+		39F27A35184C580E00B5A19C /* ta_MININDEX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797C184C580E00B5A19C /* ta_MININDEX.c */; };
+		39F27A36184C580E00B5A19C /* ta_MINMAX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797D184C580E00B5A19C /* ta_MINMAX.c */; };
+		39F27A37184C580E00B5A19C /* ta_MINMAXINDEX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797E184C580E00B5A19C /* ta_MINMAXINDEX.c */; };
+		39F27A38184C580E00B5A19C /* ta_MINUS_DI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2797F184C580E00B5A19C /* ta_MINUS_DI.c */; };
+		39F27A39184C580E00B5A19C /* ta_MINUS_DM.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27980184C580E00B5A19C /* ta_MINUS_DM.c */; };
+		39F27A3A184C580E00B5A19C /* ta_MOM.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27981184C580E00B5A19C /* ta_MOM.c */; };
+		39F27A3B184C580E00B5A19C /* ta_MULT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27982184C580E00B5A19C /* ta_MULT.c */; };
+		39F27A3C184C580E00B5A19C /* ta_NATR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27983184C580E00B5A19C /* ta_NATR.c */; };
+		39F27A3D184C580E00B5A19C /* ta_NVI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27984184C580E00B5A19C /* ta_NVI.c */; };
+		39F27A3E184C580E00B5A19C /* ta_OBV.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27985184C580E00B5A19C /* ta_OBV.c */; };
+		39F27A3F184C580E00B5A19C /* ta_PLUS_DI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27986184C580E00B5A19C /* ta_PLUS_DI.c */; };
+		39F27A40184C580E00B5A19C /* ta_PLUS_DM.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27987184C580E00B5A19C /* ta_PLUS_DM.c */; };
+		39F27A41184C580E00B5A19C /* ta_PPO.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27988184C580E00B5A19C /* ta_PPO.c */; };
+		39F27A42184C580E00B5A19C /* ta_PVI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27989184C580E00B5A19C /* ta_PVI.c */; };
+		39F27A43184C580E00B5A19C /* ta_ROC.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798A184C580E00B5A19C /* ta_ROC.c */; };
+		39F27A44184C580E00B5A19C /* ta_ROCP.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798B184C580E00B5A19C /* ta_ROCP.c */; };
+		39F27A45184C580E00B5A19C /* ta_ROCR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798C184C580E00B5A19C /* ta_ROCR.c */; };
+		39F27A46184C580E00B5A19C /* ta_ROCR100.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798D184C580E00B5A19C /* ta_ROCR100.c */; };
+		39F27A47184C580E00B5A19C /* ta_RSI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798E184C580E00B5A19C /* ta_RSI.c */; };
+		39F27A48184C580E00B5A19C /* ta_SAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2798F184C580E00B5A19C /* ta_SAR.c */; };
+		39F27A49184C580E00B5A19C /* ta_SAREXT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27990184C580E00B5A19C /* ta_SAREXT.c */; };
+		39F27A4A184C580E00B5A19C /* ta_SIN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27991184C580E00B5A19C /* ta_SIN.c */; };
+		39F27A4B184C580E00B5A19C /* ta_SINH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27992184C580E00B5A19C /* ta_SINH.c */; };
+		39F27A4C184C580E00B5A19C /* ta_SMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27993184C580E00B5A19C /* ta_SMA.c */; };
+		39F27A4D184C580E00B5A19C /* ta_SQRT.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27994184C580E00B5A19C /* ta_SQRT.c */; };
+		39F27A4E184C580E00B5A19C /* ta_STDDEV.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27995184C580E00B5A19C /* ta_STDDEV.c */; };
+		39F27A4F184C580E00B5A19C /* ta_STOCH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27996184C580E00B5A19C /* ta_STOCH.c */; };
+		39F27A50184C580E00B5A19C /* ta_STOCHF.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27997184C580E00B5A19C /* ta_STOCHF.c */; };
+		39F27A51184C580E00B5A19C /* ta_STOCHRSI.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27998184C580E00B5A19C /* ta_STOCHRSI.c */; };
+		39F27A52184C580E00B5A19C /* ta_SUB.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F27999184C580E00B5A19C /* ta_SUB.c */; };
+		39F27A53184C580E00B5A19C /* ta_SUM.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799A184C580E00B5A19C /* ta_SUM.c */; };
+		39F27A54184C580E00B5A19C /* ta_T3.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799B184C580E00B5A19C /* ta_T3.c */; };
+		39F27A55184C580E00B5A19C /* ta_TAN.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799C184C580E00B5A19C /* ta_TAN.c */; };
+		39F27A56184C580E00B5A19C /* ta_TANH.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799D184C580E00B5A19C /* ta_TANH.c */; };
+		39F27A57184C580E00B5A19C /* ta_TEMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799E184C580E00B5A19C /* ta_TEMA.c */; };
+		39F27A58184C580E00B5A19C /* ta_TRANGE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F2799F184C580E00B5A19C /* ta_TRANGE.c */; };
+		39F27A59184C580E00B5A19C /* ta_TRIMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A0184C580E00B5A19C /* ta_TRIMA.c */; };
+		39F27A5A184C580E00B5A19C /* ta_TRIX.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A1184C580E00B5A19C /* ta_TRIX.c */; };
+		39F27A5B184C580E00B5A19C /* ta_TSF.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A2184C580E00B5A19C /* ta_TSF.c */; };
+		39F27A5C184C580E00B5A19C /* ta_TYPPRICE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A3184C580E00B5A19C /* ta_TYPPRICE.c */; };
+		39F27A5D184C580E00B5A19C /* ta_ULTOSC.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A4184C580E00B5A19C /* ta_ULTOSC.c */; };
+		39F27A5E184C580E00B5A19C /* ta_utility.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A5184C580E00B5A19C /* ta_utility.c */; };
+		39F27A5F184C580E00B5A19C /* ta_VAR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A7184C580E00B5A19C /* ta_VAR.c */; };
+		39F27A60184C580E00B5A19C /* ta_WCLPRICE.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A8184C580E00B5A19C /* ta_WCLPRICE.c */; };
+		39F27A61184C580E00B5A19C /* ta_WILLR.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279A9184C580E00B5A19C /* ta_WILLR.c */; };
+		39F27A62184C580E00B5A19C /* ta_WMA.c in Sources */ = {isa = PBXBuildFile; fileRef = 39F279AA184C580E00B5A19C /* ta_WMA.c */; };
+		39F27A6B184C5EB500B5A19C /* RootView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39F27A68184C5EB500B5A19C /* RootView.xib */; };
+		39F27A6C184C5EB500B5A19C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F27A6A184C5EB500B5A19C /* RootViewController.m */; };
 		A63AD43C1831F641007A0C07 /* CCSMinusStickChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AD43B1831F641007A0C07 /* CCSMinusStickChart.m */; };
 		A63AD43F1831F6CC007A0C07 /* CCSMinusStickChartViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AD43E1831F6CC007A0C07 /* CCSMinusStickChartViewController.m */; };
 		A63AD44218320302007A0C07 /* CCSMACDChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A63AD44118320302007A0C07 /* CCSMACDChart.m */; };
@@ -78,6 +263,224 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39F278CD184C580D00B5A19C /* CCSAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSAxis.h; sourceTree = "<group>"; };
+		39F278CE184C580D00B5A19C /* CCSAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSAxis.m; sourceTree = "<group>"; };
+		39F278CF184C580D00B5A19C /* CCSAxisLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSAxisLayerView.h; sourceTree = "<group>"; };
+		39F278D0184C580D00B5A19C /* CCSAxisLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSAxisLayerView.m; sourceTree = "<group>"; };
+		39F278D1184C580D00B5A19C /* CCSBackgroundLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSBackgroundLayerView.h; sourceTree = "<group>"; };
+		39F278D2184C580D00B5A19C /* CCSBackgroundLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSBackgroundLayerView.m; sourceTree = "<group>"; };
+		39F278D5184C580D00B5A19C /* CCSBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSBaseModel.h; sourceTree = "<group>"; };
+		39F278D6184C580D00B5A19C /* CCSBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSBaseModel.m; sourceTree = "<group>"; };
+		39F278D7184C580D00B5A19C /* CCSBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSBaseView.h; sourceTree = "<group>"; };
+		39F278D8184C580D00B5A19C /* CCSBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSBaseView.m; sourceTree = "<group>"; };
+		39F278D9184C580D00B5A19C /* CCSChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSChartData.h; sourceTree = "<group>"; };
+		39F278DA184C580D00B5A19C /* CCSChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSChartData.m; sourceTree = "<group>"; };
+		39F278DB184C580D00B5A19C /* CCSChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSChartDelegate.h; sourceTree = "<group>"; };
+		39F278DC184C580D00B5A19C /* CCSChartModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSChartModel.h; sourceTree = "<group>"; };
+		39F278DD184C580D00B5A19C /* CCSChartModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSChartModel.m; sourceTree = "<group>"; };
+		39F278DE184C580D00B5A19C /* CCSChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSChartView.h; sourceTree = "<group>"; };
+		39F278DF184C580D00B5A19C /* CCSChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSChartView.m; sourceTree = "<group>"; };
+		39F278E0184C580D00B5A19C /* CCSCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSCoordinate.h; sourceTree = "<group>"; };
+		39F278E1184C580D00B5A19C /* CCSCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSCoordinate.m; sourceTree = "<group>"; };
+		39F278E2184C580D00B5A19C /* CCSCoordinateDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSCoordinateDelegate.h; sourceTree = "<group>"; };
+		39F278E3184C580D00B5A19C /* CCSCrossLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSCrossLine.h; sourceTree = "<group>"; };
+		39F278E4184C580D00B5A19C /* CCSCrossLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSCrossLine.m; sourceTree = "<group>"; };
+		39F278E5184C580D00B5A19C /* CCSCurve.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSCurve.h; sourceTree = "<group>"; };
+		39F278E6184C580D00B5A19C /* CCSCurve.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSCurve.m; sourceTree = "<group>"; };
+		39F278E7184C580D00B5A19C /* CCSGraphicsView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSGraphicsView.h; sourceTree = "<group>"; };
+		39F278E8184C580D00B5A19C /* CCSGraphicsView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSGraphicsView.m; sourceTree = "<group>"; };
+		39F278E9184C580D00B5A19C /* CCSLayerDeletate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSLayerDeletate.h; sourceTree = "<group>"; };
+		39F278EA184C580D00B5A19C /* CCSLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSLayerView.h; sourceTree = "<group>"; };
+		39F278EB184C580D00B5A19C /* CCSLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSLayerView.m; sourceTree = "<group>"; };
+		39F278EC184C580D00B5A19C /* CCSMask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSMask.h; sourceTree = "<group>"; };
+		39F278ED184C580D00B5A19C /* CCSMask.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSMask.m; sourceTree = "<group>"; };
+		39F278EE184C580D00B5A19C /* CCSMaskLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSMaskLayerView.h; sourceTree = "<group>"; };
+		39F278EF184C580D00B5A19C /* CCSMaskLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSMaskLayerView.m; sourceTree = "<group>"; };
+		39F278F0184C580D00B5A19C /* CCSNormalLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSNormalLayerView.h; sourceTree = "<group>"; };
+		39F278F1184C580D00B5A19C /* CCSNormalLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSNormalLayerView.m; sourceTree = "<group>"; };
+		39F278F2184C580D00B5A19C /* CCSOriginalPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSOriginalPoint.h; sourceTree = "<group>"; };
+		39F278F3184C580D00B5A19C /* CCSOriginalPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSOriginalPoint.m; sourceTree = "<group>"; };
+		39F278F4184C580D00B5A19C /* CCSTouchLayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSTouchLayerDelegate.h; sourceTree = "<group>"; };
+		39F278F5184C580D00B5A19C /* CCSTouchLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSTouchLayerView.h; sourceTree = "<group>"; };
+		39F278F6184C580D00B5A19C /* CCSTouchLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSTouchLayerView.m; sourceTree = "<group>"; };
+		39F278F9184C580D00B5A19C /* ta_abstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_abstract.h; sourceTree = "<group>"; };
+		39F278FA184C580D00B5A19C /* ta_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_common.h; sourceTree = "<group>"; };
+		39F278FB184C580D00B5A19C /* ta_defs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_defs.h; sourceTree = "<group>"; };
+		39F278FC184C580D00B5A19C /* ta_func.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_func.h; sourceTree = "<group>"; };
+		39F278FD184C580D00B5A19C /* ta_libc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_libc.h; sourceTree = "<group>"; };
+		39F27900184C580D00B5A19C /* ta_global.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_global.c; sourceTree = "<group>"; };
+		39F27901184C580D00B5A19C /* ta_global.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_global.h; sourceTree = "<group>"; };
+		39F27902184C580D00B5A19C /* ta_magic_nb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_magic_nb.h; sourceTree = "<group>"; };
+		39F27903184C580D00B5A19C /* ta_memory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_memory.h; sourceTree = "<group>"; };
+		39F27904184C580D00B5A19C /* ta_pragma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_pragma.h; sourceTree = "<group>"; };
+		39F27905184C580D00B5A19C /* ta_retcode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_retcode.c; sourceTree = "<group>"; };
+		39F27906184C580D00B5A19C /* ta_retcode.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ta_retcode.csv; sourceTree = "<group>"; };
+		39F27907184C580D00B5A19C /* ta_version.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_version.c; sourceTree = "<group>"; };
+		39F27909184C580D00B5A19C /* ta_ACOS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ACOS.c; sourceTree = "<group>"; };
+		39F2790A184C580D00B5A19C /* ta_AD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_AD.c; sourceTree = "<group>"; };
+		39F2790B184C580D00B5A19C /* ta_ADD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ADD.c; sourceTree = "<group>"; };
+		39F2790C184C580D00B5A19C /* ta_ADOSC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ADOSC.c; sourceTree = "<group>"; };
+		39F2790D184C580D00B5A19C /* ta_ADX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ADX.c; sourceTree = "<group>"; };
+		39F2790E184C580D00B5A19C /* ta_ADXR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ADXR.c; sourceTree = "<group>"; };
+		39F2790F184C580D00B5A19C /* ta_APO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_APO.c; sourceTree = "<group>"; };
+		39F27910184C580D00B5A19C /* ta_AROON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_AROON.c; sourceTree = "<group>"; };
+		39F27911184C580D00B5A19C /* ta_AROONOSC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_AROONOSC.c; sourceTree = "<group>"; };
+		39F27912184C580D00B5A19C /* ta_ASIN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ASIN.c; sourceTree = "<group>"; };
+		39F27913184C580D00B5A19C /* ta_ATAN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ATAN.c; sourceTree = "<group>"; };
+		39F27914184C580D00B5A19C /* ta_ATR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ATR.c; sourceTree = "<group>"; };
+		39F27915184C580D00B5A19C /* ta_AVGPRICE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_AVGPRICE.c; sourceTree = "<group>"; };
+		39F27916184C580D00B5A19C /* ta_BBANDS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_BBANDS.c; sourceTree = "<group>"; };
+		39F27917184C580D00B5A19C /* ta_BETA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_BETA.c; sourceTree = "<group>"; };
+		39F27918184C580D00B5A19C /* ta_BOP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_BOP.c; sourceTree = "<group>"; };
+		39F27919184C580D00B5A19C /* ta_CCI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CCI.c; sourceTree = "<group>"; };
+		39F2791A184C580D00B5A19C /* ta_CDL2CROWS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL2CROWS.c; sourceTree = "<group>"; };
+		39F2791B184C580D00B5A19C /* ta_CDL3BLACKCROWS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3BLACKCROWS.c; sourceTree = "<group>"; };
+		39F2791C184C580D00B5A19C /* ta_CDL3INSIDE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3INSIDE.c; sourceTree = "<group>"; };
+		39F2791D184C580D00B5A19C /* ta_CDL3LINESTRIKE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3LINESTRIKE.c; sourceTree = "<group>"; };
+		39F2791E184C580D00B5A19C /* ta_CDL3OUTSIDE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3OUTSIDE.c; sourceTree = "<group>"; };
+		39F2791F184C580D00B5A19C /* ta_CDL3STARSINSOUTH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3STARSINSOUTH.c; sourceTree = "<group>"; };
+		39F27920184C580D00B5A19C /* ta_CDL3WHITESOLDIERS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDL3WHITESOLDIERS.c; sourceTree = "<group>"; };
+		39F27921184C580D00B5A19C /* ta_CDLABANDONEDBABY.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLABANDONEDBABY.c; sourceTree = "<group>"; };
+		39F27922184C580D00B5A19C /* ta_CDLADVANCEBLOCK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLADVANCEBLOCK.c; sourceTree = "<group>"; };
+		39F27923184C580D00B5A19C /* ta_CDLBELTHOLD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLBELTHOLD.c; sourceTree = "<group>"; };
+		39F27924184C580D00B5A19C /* ta_CDLBREAKAWAY.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLBREAKAWAY.c; sourceTree = "<group>"; };
+		39F27925184C580D00B5A19C /* ta_CDLCLOSINGMARUBOZU.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLCLOSINGMARUBOZU.c; sourceTree = "<group>"; };
+		39F27926184C580D00B5A19C /* ta_CDLCONCEALBABYSWALL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLCONCEALBABYSWALL.c; sourceTree = "<group>"; };
+		39F27927184C580D00B5A19C /* ta_CDLCOUNTERATTACK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLCOUNTERATTACK.c; sourceTree = "<group>"; };
+		39F27928184C580D00B5A19C /* ta_CDLDARKCLOUDCOVER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLDARKCLOUDCOVER.c; sourceTree = "<group>"; };
+		39F27929184C580D00B5A19C /* ta_CDLDOJI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLDOJI.c; sourceTree = "<group>"; };
+		39F2792A184C580D00B5A19C /* ta_CDLDOJISTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLDOJISTAR.c; sourceTree = "<group>"; };
+		39F2792B184C580D00B5A19C /* ta_CDLDRAGONFLYDOJI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLDRAGONFLYDOJI.c; sourceTree = "<group>"; };
+		39F2792C184C580D00B5A19C /* ta_CDLENGULFING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLENGULFING.c; sourceTree = "<group>"; };
+		39F2792D184C580D00B5A19C /* ta_CDLEVENINGDOJISTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLEVENINGDOJISTAR.c; sourceTree = "<group>"; };
+		39F2792E184C580D00B5A19C /* ta_CDLEVENINGSTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLEVENINGSTAR.c; sourceTree = "<group>"; };
+		39F2792F184C580D00B5A19C /* ta_CDLGAPSIDESIDEWHITE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLGAPSIDESIDEWHITE.c; sourceTree = "<group>"; };
+		39F27930184C580D00B5A19C /* ta_CDLGRAVESTONEDOJI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLGRAVESTONEDOJI.c; sourceTree = "<group>"; };
+		39F27931184C580D00B5A19C /* ta_CDLHAMMER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHAMMER.c; sourceTree = "<group>"; };
+		39F27932184C580D00B5A19C /* ta_CDLHANGINGMAN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHANGINGMAN.c; sourceTree = "<group>"; };
+		39F27933184C580D00B5A19C /* ta_CDLHARAMI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHARAMI.c; sourceTree = "<group>"; };
+		39F27934184C580D00B5A19C /* ta_CDLHARAMICROSS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHARAMICROSS.c; sourceTree = "<group>"; };
+		39F27935184C580D00B5A19C /* ta_CDLHIGHWAVE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHIGHWAVE.c; sourceTree = "<group>"; };
+		39F27936184C580D00B5A19C /* ta_CDLHIKKAKE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHIKKAKE.c; sourceTree = "<group>"; };
+		39F27937184C580D00B5A19C /* ta_CDLHIKKAKEMOD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHIKKAKEMOD.c; sourceTree = "<group>"; };
+		39F27938184C580D00B5A19C /* ta_CDLHOMINGPIGEON.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLHOMINGPIGEON.c; sourceTree = "<group>"; };
+		39F27939184C580D00B5A19C /* ta_CDLIDENTICAL3CROWS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLIDENTICAL3CROWS.c; sourceTree = "<group>"; };
+		39F2793A184C580D00B5A19C /* ta_CDLINNECK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLINNECK.c; sourceTree = "<group>"; };
+		39F2793B184C580D00B5A19C /* ta_CDLINVERTEDHAMMER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLINVERTEDHAMMER.c; sourceTree = "<group>"; };
+		39F2793C184C580D00B5A19C /* ta_CDLKICKING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLKICKING.c; sourceTree = "<group>"; };
+		39F2793D184C580D00B5A19C /* ta_CDLKICKINGBYLENGTH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLKICKINGBYLENGTH.c; sourceTree = "<group>"; };
+		39F2793E184C580D00B5A19C /* ta_CDLLADDERBOTTOM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLLADDERBOTTOM.c; sourceTree = "<group>"; };
+		39F2793F184C580D00B5A19C /* ta_CDLLONGLEGGEDDOJI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLLONGLEGGEDDOJI.c; sourceTree = "<group>"; };
+		39F27940184C580D00B5A19C /* ta_CDLLONGLINE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLLONGLINE.c; sourceTree = "<group>"; };
+		39F27941184C580D00B5A19C /* ta_CDLMARUBOZU.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLMARUBOZU.c; sourceTree = "<group>"; };
+		39F27942184C580D00B5A19C /* ta_CDLMATCHINGLOW.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLMATCHINGLOW.c; sourceTree = "<group>"; };
+		39F27943184C580D00B5A19C /* ta_CDLMATHOLD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLMATHOLD.c; sourceTree = "<group>"; };
+		39F27944184C580D00B5A19C /* ta_CDLMORNINGDOJISTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLMORNINGDOJISTAR.c; sourceTree = "<group>"; };
+		39F27945184C580D00B5A19C /* ta_CDLMORNINGSTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLMORNINGSTAR.c; sourceTree = "<group>"; };
+		39F27946184C580D00B5A19C /* ta_CDLONNECK.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLONNECK.c; sourceTree = "<group>"; };
+		39F27947184C580D00B5A19C /* ta_CDLPIERCING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLPIERCING.c; sourceTree = "<group>"; };
+		39F27948184C580D00B5A19C /* ta_CDLRICKSHAWMAN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLRICKSHAWMAN.c; sourceTree = "<group>"; };
+		39F27949184C580D00B5A19C /* ta_CDLRISEFALL3METHODS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLRISEFALL3METHODS.c; sourceTree = "<group>"; };
+		39F2794A184C580D00B5A19C /* ta_CDLSEPARATINGLINES.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSEPARATINGLINES.c; sourceTree = "<group>"; };
+		39F2794B184C580D00B5A19C /* ta_CDLSHOOTINGSTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSHOOTINGSTAR.c; sourceTree = "<group>"; };
+		39F2794C184C580D00B5A19C /* ta_CDLSHORTLINE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSHORTLINE.c; sourceTree = "<group>"; };
+		39F2794D184C580D00B5A19C /* ta_CDLSPINNINGTOP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSPINNINGTOP.c; sourceTree = "<group>"; };
+		39F2794E184C580D00B5A19C /* ta_CDLSTALLEDPATTERN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSTALLEDPATTERN.c; sourceTree = "<group>"; };
+		39F2794F184C580D00B5A19C /* ta_CDLSTICKSANDWICH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLSTICKSANDWICH.c; sourceTree = "<group>"; };
+		39F27950184C580D00B5A19C /* ta_CDLTAKURI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLTAKURI.c; sourceTree = "<group>"; };
+		39F27951184C580D00B5A19C /* ta_CDLTASUKIGAP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLTASUKIGAP.c; sourceTree = "<group>"; };
+		39F27952184C580D00B5A19C /* ta_CDLTHRUSTING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLTHRUSTING.c; sourceTree = "<group>"; };
+		39F27953184C580D00B5A19C /* ta_CDLTRISTAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLTRISTAR.c; sourceTree = "<group>"; };
+		39F27954184C580D00B5A19C /* ta_CDLUNIQUE3RIVER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLUNIQUE3RIVER.c; sourceTree = "<group>"; };
+		39F27955184C580D00B5A19C /* ta_CDLUPSIDEGAP2CROWS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLUPSIDEGAP2CROWS.c; sourceTree = "<group>"; };
+		39F27956184C580D00B5A19C /* ta_CDLXSIDEGAP3METHODS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CDLXSIDEGAP3METHODS.c; sourceTree = "<group>"; };
+		39F27957184C580D00B5A19C /* ta_CEIL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CEIL.c; sourceTree = "<group>"; };
+		39F27958184C580D00B5A19C /* ta_CMO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CMO.c; sourceTree = "<group>"; };
+		39F27959184C580E00B5A19C /* ta_CORREL.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_CORREL.c; sourceTree = "<group>"; };
+		39F2795A184C580E00B5A19C /* ta_COS.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_COS.c; sourceTree = "<group>"; };
+		39F2795B184C580E00B5A19C /* ta_COSH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_COSH.c; sourceTree = "<group>"; };
+		39F2795C184C580E00B5A19C /* ta_DEMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_DEMA.c; sourceTree = "<group>"; };
+		39F2795D184C580E00B5A19C /* ta_DIV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_DIV.c; sourceTree = "<group>"; };
+		39F2795E184C580E00B5A19C /* ta_DX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_DX.c; sourceTree = "<group>"; };
+		39F2795F184C580E00B5A19C /* ta_EMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_EMA.c; sourceTree = "<group>"; };
+		39F27960184C580E00B5A19C /* ta_EXP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_EXP.c; sourceTree = "<group>"; };
+		39F27961184C580E00B5A19C /* ta_FLOOR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_FLOOR.c; sourceTree = "<group>"; };
+		39F27962184C580E00B5A19C /* ta_HT_DCPERIOD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_DCPERIOD.c; sourceTree = "<group>"; };
+		39F27963184C580E00B5A19C /* ta_HT_DCPHASE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_DCPHASE.c; sourceTree = "<group>"; };
+		39F27964184C580E00B5A19C /* ta_HT_PHASOR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_PHASOR.c; sourceTree = "<group>"; };
+		39F27965184C580E00B5A19C /* ta_HT_SINE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_SINE.c; sourceTree = "<group>"; };
+		39F27966184C580E00B5A19C /* ta_HT_TRENDLINE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_TRENDLINE.c; sourceTree = "<group>"; };
+		39F27967184C580E00B5A19C /* ta_HT_TRENDMODE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_HT_TRENDMODE.c; sourceTree = "<group>"; };
+		39F27968184C580E00B5A19C /* ta_KAMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_KAMA.c; sourceTree = "<group>"; };
+		39F27969184C580E00B5A19C /* ta_LINEARREG.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LINEARREG.c; sourceTree = "<group>"; };
+		39F2796A184C580E00B5A19C /* ta_LINEARREG_ANGLE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LINEARREG_ANGLE.c; sourceTree = "<group>"; };
+		39F2796B184C580E00B5A19C /* ta_LINEARREG_INTERCEPT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LINEARREG_INTERCEPT.c; sourceTree = "<group>"; };
+		39F2796C184C580E00B5A19C /* ta_LINEARREG_SLOPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LINEARREG_SLOPE.c; sourceTree = "<group>"; };
+		39F2796D184C580E00B5A19C /* ta_LN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LN.c; sourceTree = "<group>"; };
+		39F2796E184C580E00B5A19C /* ta_LOG10.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_LOG10.c; sourceTree = "<group>"; };
+		39F2796F184C580E00B5A19C /* ta_MA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MA.c; sourceTree = "<group>"; };
+		39F27970184C580E00B5A19C /* ta_MACD.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MACD.c; sourceTree = "<group>"; };
+		39F27971184C580E00B5A19C /* ta_MACDEXT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MACDEXT.c; sourceTree = "<group>"; };
+		39F27972184C580E00B5A19C /* ta_MACDFIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MACDFIX.c; sourceTree = "<group>"; };
+		39F27973184C580E00B5A19C /* ta_MAMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MAMA.c; sourceTree = "<group>"; };
+		39F27974184C580E00B5A19C /* ta_MAVP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MAVP.c; sourceTree = "<group>"; };
+		39F27975184C580E00B5A19C /* ta_MAX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MAX.c; sourceTree = "<group>"; };
+		39F27976184C580E00B5A19C /* ta_MAXINDEX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MAXINDEX.c; sourceTree = "<group>"; };
+		39F27977184C580E00B5A19C /* ta_MEDPRICE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MEDPRICE.c; sourceTree = "<group>"; };
+		39F27978184C580E00B5A19C /* ta_MFI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MFI.c; sourceTree = "<group>"; };
+		39F27979184C580E00B5A19C /* ta_MIDPOINT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MIDPOINT.c; sourceTree = "<group>"; };
+		39F2797A184C580E00B5A19C /* ta_MIDPRICE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MIDPRICE.c; sourceTree = "<group>"; };
+		39F2797B184C580E00B5A19C /* ta_MIN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MIN.c; sourceTree = "<group>"; };
+		39F2797C184C580E00B5A19C /* ta_MININDEX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MININDEX.c; sourceTree = "<group>"; };
+		39F2797D184C580E00B5A19C /* ta_MINMAX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MINMAX.c; sourceTree = "<group>"; };
+		39F2797E184C580E00B5A19C /* ta_MINMAXINDEX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MINMAXINDEX.c; sourceTree = "<group>"; };
+		39F2797F184C580E00B5A19C /* ta_MINUS_DI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MINUS_DI.c; sourceTree = "<group>"; };
+		39F27980184C580E00B5A19C /* ta_MINUS_DM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MINUS_DM.c; sourceTree = "<group>"; };
+		39F27981184C580E00B5A19C /* ta_MOM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MOM.c; sourceTree = "<group>"; };
+		39F27982184C580E00B5A19C /* ta_MULT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_MULT.c; sourceTree = "<group>"; };
+		39F27983184C580E00B5A19C /* ta_NATR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_NATR.c; sourceTree = "<group>"; };
+		39F27984184C580E00B5A19C /* ta_NVI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_NVI.c; sourceTree = "<group>"; };
+		39F27985184C580E00B5A19C /* ta_OBV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_OBV.c; sourceTree = "<group>"; };
+		39F27986184C580E00B5A19C /* ta_PLUS_DI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_PLUS_DI.c; sourceTree = "<group>"; };
+		39F27987184C580E00B5A19C /* ta_PLUS_DM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_PLUS_DM.c; sourceTree = "<group>"; };
+		39F27988184C580E00B5A19C /* ta_PPO.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_PPO.c; sourceTree = "<group>"; };
+		39F27989184C580E00B5A19C /* ta_PVI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_PVI.c; sourceTree = "<group>"; };
+		39F2798A184C580E00B5A19C /* ta_ROC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ROC.c; sourceTree = "<group>"; };
+		39F2798B184C580E00B5A19C /* ta_ROCP.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ROCP.c; sourceTree = "<group>"; };
+		39F2798C184C580E00B5A19C /* ta_ROCR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ROCR.c; sourceTree = "<group>"; };
+		39F2798D184C580E00B5A19C /* ta_ROCR100.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ROCR100.c; sourceTree = "<group>"; };
+		39F2798E184C580E00B5A19C /* ta_RSI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_RSI.c; sourceTree = "<group>"; };
+		39F2798F184C580E00B5A19C /* ta_SAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SAR.c; sourceTree = "<group>"; };
+		39F27990184C580E00B5A19C /* ta_SAREXT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SAREXT.c; sourceTree = "<group>"; };
+		39F27991184C580E00B5A19C /* ta_SIN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SIN.c; sourceTree = "<group>"; };
+		39F27992184C580E00B5A19C /* ta_SINH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SINH.c; sourceTree = "<group>"; };
+		39F27993184C580E00B5A19C /* ta_SMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SMA.c; sourceTree = "<group>"; };
+		39F27994184C580E00B5A19C /* ta_SQRT.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SQRT.c; sourceTree = "<group>"; };
+		39F27995184C580E00B5A19C /* ta_STDDEV.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_STDDEV.c; sourceTree = "<group>"; };
+		39F27996184C580E00B5A19C /* ta_STOCH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_STOCH.c; sourceTree = "<group>"; };
+		39F27997184C580E00B5A19C /* ta_STOCHF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_STOCHF.c; sourceTree = "<group>"; };
+		39F27998184C580E00B5A19C /* ta_STOCHRSI.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_STOCHRSI.c; sourceTree = "<group>"; };
+		39F27999184C580E00B5A19C /* ta_SUB.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SUB.c; sourceTree = "<group>"; };
+		39F2799A184C580E00B5A19C /* ta_SUM.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_SUM.c; sourceTree = "<group>"; };
+		39F2799B184C580E00B5A19C /* ta_T3.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_T3.c; sourceTree = "<group>"; };
+		39F2799C184C580E00B5A19C /* ta_TAN.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TAN.c; sourceTree = "<group>"; };
+		39F2799D184C580E00B5A19C /* ta_TANH.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TANH.c; sourceTree = "<group>"; };
+		39F2799E184C580E00B5A19C /* ta_TEMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TEMA.c; sourceTree = "<group>"; };
+		39F2799F184C580E00B5A19C /* ta_TRANGE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TRANGE.c; sourceTree = "<group>"; };
+		39F279A0184C580E00B5A19C /* ta_TRIMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TRIMA.c; sourceTree = "<group>"; };
+		39F279A1184C580E00B5A19C /* ta_TRIX.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TRIX.c; sourceTree = "<group>"; };
+		39F279A2184C580E00B5A19C /* ta_TSF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TSF.c; sourceTree = "<group>"; };
+		39F279A3184C580E00B5A19C /* ta_TYPPRICE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_TYPPRICE.c; sourceTree = "<group>"; };
+		39F279A4184C580E00B5A19C /* ta_ULTOSC.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_ULTOSC.c; sourceTree = "<group>"; };
+		39F279A5184C580E00B5A19C /* ta_utility.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_utility.c; sourceTree = "<group>"; };
+		39F279A6184C580E00B5A19C /* ta_utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ta_utility.h; sourceTree = "<group>"; };
+		39F279A7184C580E00B5A19C /* ta_VAR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_VAR.c; sourceTree = "<group>"; };
+		39F279A8184C580E00B5A19C /* ta_WCLPRICE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_WCLPRICE.c; sourceTree = "<group>"; };
+		39F279A9184C580E00B5A19C /* ta_WILLR.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_WILLR.c; sourceTree = "<group>"; };
+		39F279AA184C580E00B5A19C /* ta_WMA.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ta_WMA.c; sourceTree = "<group>"; };
+		39F27A68184C5EB500B5A19C /* RootView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootView.xib; sourceTree = SOURCE_ROOT; };
+		39F27A69184C5EB500B5A19C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = SOURCE_ROOT; };
+		39F27A6A184C5EB500B5A19C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = SOURCE_ROOT; };
 		A63AD43A1831F641007A0C07 /* CCSMinusStickChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSMinusStickChart.h; sourceTree = "<group>"; };
 		A63AD43B1831F641007A0C07 /* CCSMinusStickChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CCSMinusStickChart.m; sourceTree = "<group>"; };
 		A63AD43D1831F6CC007A0C07 /* CCSMinusStickChartViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CCSMinusStickChartViewController.h; sourceTree = "<group>"; };
@@ -211,12 +614,309 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		39F278CC184C580D00B5A19C /* CoCoaChartsLib */ = {
+			isa = PBXGroup;
+			children = (
+				39F278D7184C580D00B5A19C /* CCSBaseView.h */,
+				39F278D8184C580D00B5A19C /* CCSBaseView.m */,
+				39F278DC184C580D00B5A19C /* CCSChartModel.h */,
+				39F278DD184C580D00B5A19C /* CCSChartModel.m */,
+				39F278DE184C580D00B5A19C /* CCSChartView.h */,
+				39F278DF184C580D00B5A19C /* CCSChartView.m */,
+				39F278E0184C580D00B5A19C /* CCSCoordinate.h */,
+				39F278E1184C580D00B5A19C /* CCSCoordinate.m */,
+				39F278E2184C580D00B5A19C /* CCSCoordinateDelegate.h */,
+				39F27A67184C5D9600B5A19C /* Model */,
+				39F27A66184C5D8300B5A19C /* Data */,
+				39F27A63184C5BDB00B5A19C /* CCSLayer */,
+				39F27A64184C5C1300B5A19C /* CCSGraphics */,
+			);
+			name = CoCoaChartsLib;
+			path = ../CoCoaChartsLib;
+			sourceTree = "<group>";
+		};
+		39F278F7184C580D00B5A19C /* TaLib */ = {
+			isa = PBXGroup;
+			children = (
+				39F278F8184C580D00B5A19C /* include */,
+				39F278FE184C580D00B5A19C /* src */,
+			);
+			name = TaLib;
+			path = ../TaLib;
+			sourceTree = "<group>";
+		};
+		39F278F8184C580D00B5A19C /* include */ = {
+			isa = PBXGroup;
+			children = (
+				39F278F9184C580D00B5A19C /* ta_abstract.h */,
+				39F278FA184C580D00B5A19C /* ta_common.h */,
+				39F278FB184C580D00B5A19C /* ta_defs.h */,
+				39F278FC184C580D00B5A19C /* ta_func.h */,
+				39F278FD184C580D00B5A19C /* ta_libc.h */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		39F278FE184C580D00B5A19C /* src */ = {
+			isa = PBXGroup;
+			children = (
+				39F278FF184C580D00B5A19C /* ta_common */,
+				39F27908184C580D00B5A19C /* ta_func */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		39F278FF184C580D00B5A19C /* ta_common */ = {
+			isa = PBXGroup;
+			children = (
+				39F27900184C580D00B5A19C /* ta_global.c */,
+				39F27901184C580D00B5A19C /* ta_global.h */,
+				39F27902184C580D00B5A19C /* ta_magic_nb.h */,
+				39F27903184C580D00B5A19C /* ta_memory.h */,
+				39F27904184C580D00B5A19C /* ta_pragma.h */,
+				39F27905184C580D00B5A19C /* ta_retcode.c */,
+				39F27906184C580D00B5A19C /* ta_retcode.csv */,
+				39F27907184C580D00B5A19C /* ta_version.c */,
+			);
+			path = ta_common;
+			sourceTree = "<group>";
+		};
+		39F27908184C580D00B5A19C /* ta_func */ = {
+			isa = PBXGroup;
+			children = (
+				39F27909184C580D00B5A19C /* ta_ACOS.c */,
+				39F2790A184C580D00B5A19C /* ta_AD.c */,
+				39F2790B184C580D00B5A19C /* ta_ADD.c */,
+				39F2790C184C580D00B5A19C /* ta_ADOSC.c */,
+				39F2790D184C580D00B5A19C /* ta_ADX.c */,
+				39F2790E184C580D00B5A19C /* ta_ADXR.c */,
+				39F2790F184C580D00B5A19C /* ta_APO.c */,
+				39F27910184C580D00B5A19C /* ta_AROON.c */,
+				39F27911184C580D00B5A19C /* ta_AROONOSC.c */,
+				39F27912184C580D00B5A19C /* ta_ASIN.c */,
+				39F27913184C580D00B5A19C /* ta_ATAN.c */,
+				39F27914184C580D00B5A19C /* ta_ATR.c */,
+				39F27915184C580D00B5A19C /* ta_AVGPRICE.c */,
+				39F27916184C580D00B5A19C /* ta_BBANDS.c */,
+				39F27917184C580D00B5A19C /* ta_BETA.c */,
+				39F27918184C580D00B5A19C /* ta_BOP.c */,
+				39F27919184C580D00B5A19C /* ta_CCI.c */,
+				39F2791A184C580D00B5A19C /* ta_CDL2CROWS.c */,
+				39F2791B184C580D00B5A19C /* ta_CDL3BLACKCROWS.c */,
+				39F2791C184C580D00B5A19C /* ta_CDL3INSIDE.c */,
+				39F2791D184C580D00B5A19C /* ta_CDL3LINESTRIKE.c */,
+				39F2791E184C580D00B5A19C /* ta_CDL3OUTSIDE.c */,
+				39F2791F184C580D00B5A19C /* ta_CDL3STARSINSOUTH.c */,
+				39F27920184C580D00B5A19C /* ta_CDL3WHITESOLDIERS.c */,
+				39F27921184C580D00B5A19C /* ta_CDLABANDONEDBABY.c */,
+				39F27922184C580D00B5A19C /* ta_CDLADVANCEBLOCK.c */,
+				39F27923184C580D00B5A19C /* ta_CDLBELTHOLD.c */,
+				39F27924184C580D00B5A19C /* ta_CDLBREAKAWAY.c */,
+				39F27925184C580D00B5A19C /* ta_CDLCLOSINGMARUBOZU.c */,
+				39F27926184C580D00B5A19C /* ta_CDLCONCEALBABYSWALL.c */,
+				39F27927184C580D00B5A19C /* ta_CDLCOUNTERATTACK.c */,
+				39F27928184C580D00B5A19C /* ta_CDLDARKCLOUDCOVER.c */,
+				39F27929184C580D00B5A19C /* ta_CDLDOJI.c */,
+				39F2792A184C580D00B5A19C /* ta_CDLDOJISTAR.c */,
+				39F2792B184C580D00B5A19C /* ta_CDLDRAGONFLYDOJI.c */,
+				39F2792C184C580D00B5A19C /* ta_CDLENGULFING.c */,
+				39F2792D184C580D00B5A19C /* ta_CDLEVENINGDOJISTAR.c */,
+				39F2792E184C580D00B5A19C /* ta_CDLEVENINGSTAR.c */,
+				39F2792F184C580D00B5A19C /* ta_CDLGAPSIDESIDEWHITE.c */,
+				39F27930184C580D00B5A19C /* ta_CDLGRAVESTONEDOJI.c */,
+				39F27931184C580D00B5A19C /* ta_CDLHAMMER.c */,
+				39F27932184C580D00B5A19C /* ta_CDLHANGINGMAN.c */,
+				39F27933184C580D00B5A19C /* ta_CDLHARAMI.c */,
+				39F27934184C580D00B5A19C /* ta_CDLHARAMICROSS.c */,
+				39F27935184C580D00B5A19C /* ta_CDLHIGHWAVE.c */,
+				39F27936184C580D00B5A19C /* ta_CDLHIKKAKE.c */,
+				39F27937184C580D00B5A19C /* ta_CDLHIKKAKEMOD.c */,
+				39F27938184C580D00B5A19C /* ta_CDLHOMINGPIGEON.c */,
+				39F27939184C580D00B5A19C /* ta_CDLIDENTICAL3CROWS.c */,
+				39F2793A184C580D00B5A19C /* ta_CDLINNECK.c */,
+				39F2793B184C580D00B5A19C /* ta_CDLINVERTEDHAMMER.c */,
+				39F2793C184C580D00B5A19C /* ta_CDLKICKING.c */,
+				39F2793D184C580D00B5A19C /* ta_CDLKICKINGBYLENGTH.c */,
+				39F2793E184C580D00B5A19C /* ta_CDLLADDERBOTTOM.c */,
+				39F2793F184C580D00B5A19C /* ta_CDLLONGLEGGEDDOJI.c */,
+				39F27940184C580D00B5A19C /* ta_CDLLONGLINE.c */,
+				39F27941184C580D00B5A19C /* ta_CDLMARUBOZU.c */,
+				39F27942184C580D00B5A19C /* ta_CDLMATCHINGLOW.c */,
+				39F27943184C580D00B5A19C /* ta_CDLMATHOLD.c */,
+				39F27944184C580D00B5A19C /* ta_CDLMORNINGDOJISTAR.c */,
+				39F27945184C580D00B5A19C /* ta_CDLMORNINGSTAR.c */,
+				39F27946184C580D00B5A19C /* ta_CDLONNECK.c */,
+				39F27947184C580D00B5A19C /* ta_CDLPIERCING.c */,
+				39F27948184C580D00B5A19C /* ta_CDLRICKSHAWMAN.c */,
+				39F27949184C580D00B5A19C /* ta_CDLRISEFALL3METHODS.c */,
+				39F2794A184C580D00B5A19C /* ta_CDLSEPARATINGLINES.c */,
+				39F2794B184C580D00B5A19C /* ta_CDLSHOOTINGSTAR.c */,
+				39F2794C184C580D00B5A19C /* ta_CDLSHORTLINE.c */,
+				39F2794D184C580D00B5A19C /* ta_CDLSPINNINGTOP.c */,
+				39F2794E184C580D00B5A19C /* ta_CDLSTALLEDPATTERN.c */,
+				39F2794F184C580D00B5A19C /* ta_CDLSTICKSANDWICH.c */,
+				39F27950184C580D00B5A19C /* ta_CDLTAKURI.c */,
+				39F27951184C580D00B5A19C /* ta_CDLTASUKIGAP.c */,
+				39F27952184C580D00B5A19C /* ta_CDLTHRUSTING.c */,
+				39F27953184C580D00B5A19C /* ta_CDLTRISTAR.c */,
+				39F27954184C580D00B5A19C /* ta_CDLUNIQUE3RIVER.c */,
+				39F27955184C580D00B5A19C /* ta_CDLUPSIDEGAP2CROWS.c */,
+				39F27956184C580D00B5A19C /* ta_CDLXSIDEGAP3METHODS.c */,
+				39F27957184C580D00B5A19C /* ta_CEIL.c */,
+				39F27958184C580D00B5A19C /* ta_CMO.c */,
+				39F27959184C580E00B5A19C /* ta_CORREL.c */,
+				39F2795A184C580E00B5A19C /* ta_COS.c */,
+				39F2795B184C580E00B5A19C /* ta_COSH.c */,
+				39F2795C184C580E00B5A19C /* ta_DEMA.c */,
+				39F2795D184C580E00B5A19C /* ta_DIV.c */,
+				39F2795E184C580E00B5A19C /* ta_DX.c */,
+				39F2795F184C580E00B5A19C /* ta_EMA.c */,
+				39F27960184C580E00B5A19C /* ta_EXP.c */,
+				39F27961184C580E00B5A19C /* ta_FLOOR.c */,
+				39F27962184C580E00B5A19C /* ta_HT_DCPERIOD.c */,
+				39F27963184C580E00B5A19C /* ta_HT_DCPHASE.c */,
+				39F27964184C580E00B5A19C /* ta_HT_PHASOR.c */,
+				39F27965184C580E00B5A19C /* ta_HT_SINE.c */,
+				39F27966184C580E00B5A19C /* ta_HT_TRENDLINE.c */,
+				39F27967184C580E00B5A19C /* ta_HT_TRENDMODE.c */,
+				39F27968184C580E00B5A19C /* ta_KAMA.c */,
+				39F27969184C580E00B5A19C /* ta_LINEARREG.c */,
+				39F2796A184C580E00B5A19C /* ta_LINEARREG_ANGLE.c */,
+				39F2796B184C580E00B5A19C /* ta_LINEARREG_INTERCEPT.c */,
+				39F2796C184C580E00B5A19C /* ta_LINEARREG_SLOPE.c */,
+				39F2796D184C580E00B5A19C /* ta_LN.c */,
+				39F2796E184C580E00B5A19C /* ta_LOG10.c */,
+				39F2796F184C580E00B5A19C /* ta_MA.c */,
+				39F27970184C580E00B5A19C /* ta_MACD.c */,
+				39F27971184C580E00B5A19C /* ta_MACDEXT.c */,
+				39F27972184C580E00B5A19C /* ta_MACDFIX.c */,
+				39F27973184C580E00B5A19C /* ta_MAMA.c */,
+				39F27974184C580E00B5A19C /* ta_MAVP.c */,
+				39F27975184C580E00B5A19C /* ta_MAX.c */,
+				39F27976184C580E00B5A19C /* ta_MAXINDEX.c */,
+				39F27977184C580E00B5A19C /* ta_MEDPRICE.c */,
+				39F27978184C580E00B5A19C /* ta_MFI.c */,
+				39F27979184C580E00B5A19C /* ta_MIDPOINT.c */,
+				39F2797A184C580E00B5A19C /* ta_MIDPRICE.c */,
+				39F2797B184C580E00B5A19C /* ta_MIN.c */,
+				39F2797C184C580E00B5A19C /* ta_MININDEX.c */,
+				39F2797D184C580E00B5A19C /* ta_MINMAX.c */,
+				39F2797E184C580E00B5A19C /* ta_MINMAXINDEX.c */,
+				39F2797F184C580E00B5A19C /* ta_MINUS_DI.c */,
+				39F27980184C580E00B5A19C /* ta_MINUS_DM.c */,
+				39F27981184C580E00B5A19C /* ta_MOM.c */,
+				39F27982184C580E00B5A19C /* ta_MULT.c */,
+				39F27983184C580E00B5A19C /* ta_NATR.c */,
+				39F27984184C580E00B5A19C /* ta_NVI.c */,
+				39F27985184C580E00B5A19C /* ta_OBV.c */,
+				39F27986184C580E00B5A19C /* ta_PLUS_DI.c */,
+				39F27987184C580E00B5A19C /* ta_PLUS_DM.c */,
+				39F27988184C580E00B5A19C /* ta_PPO.c */,
+				39F27989184C580E00B5A19C /* ta_PVI.c */,
+				39F2798A184C580E00B5A19C /* ta_ROC.c */,
+				39F2798B184C580E00B5A19C /* ta_ROCP.c */,
+				39F2798C184C580E00B5A19C /* ta_ROCR.c */,
+				39F2798D184C580E00B5A19C /* ta_ROCR100.c */,
+				39F2798E184C580E00B5A19C /* ta_RSI.c */,
+				39F2798F184C580E00B5A19C /* ta_SAR.c */,
+				39F27990184C580E00B5A19C /* ta_SAREXT.c */,
+				39F27991184C580E00B5A19C /* ta_SIN.c */,
+				39F27992184C580E00B5A19C /* ta_SINH.c */,
+				39F27993184C580E00B5A19C /* ta_SMA.c */,
+				39F27994184C580E00B5A19C /* ta_SQRT.c */,
+				39F27995184C580E00B5A19C /* ta_STDDEV.c */,
+				39F27996184C580E00B5A19C /* ta_STOCH.c */,
+				39F27997184C580E00B5A19C /* ta_STOCHF.c */,
+				39F27998184C580E00B5A19C /* ta_STOCHRSI.c */,
+				39F27999184C580E00B5A19C /* ta_SUB.c */,
+				39F2799A184C580E00B5A19C /* ta_SUM.c */,
+				39F2799B184C580E00B5A19C /* ta_T3.c */,
+				39F2799C184C580E00B5A19C /* ta_TAN.c */,
+				39F2799D184C580E00B5A19C /* ta_TANH.c */,
+				39F2799E184C580E00B5A19C /* ta_TEMA.c */,
+				39F2799F184C580E00B5A19C /* ta_TRANGE.c */,
+				39F279A0184C580E00B5A19C /* ta_TRIMA.c */,
+				39F279A1184C580E00B5A19C /* ta_TRIX.c */,
+				39F279A2184C580E00B5A19C /* ta_TSF.c */,
+				39F279A3184C580E00B5A19C /* ta_TYPPRICE.c */,
+				39F279A4184C580E00B5A19C /* ta_ULTOSC.c */,
+				39F279A5184C580E00B5A19C /* ta_utility.c */,
+				39F279A6184C580E00B5A19C /* ta_utility.h */,
+				39F279A7184C580E00B5A19C /* ta_VAR.c */,
+				39F279A8184C580E00B5A19C /* ta_WCLPRICE.c */,
+				39F279A9184C580E00B5A19C /* ta_WILLR.c */,
+				39F279AA184C580E00B5A19C /* ta_WMA.c */,
+			);
+			path = ta_func;
+			sourceTree = "<group>";
+		};
+		39F27A63184C5BDB00B5A19C /* CCSLayer */ = {
+			isa = PBXGroup;
+			children = (
+				39F278E9184C580D00B5A19C /* CCSLayerDeletate.h */,
+				39F278EA184C580D00B5A19C /* CCSLayerView.h */,
+				39F278EB184C580D00B5A19C /* CCSLayerView.m */,
+				39F278CF184C580D00B5A19C /* CCSAxisLayerView.h */,
+				39F278D0184C580D00B5A19C /* CCSAxisLayerView.m */,
+				39F278D1184C580D00B5A19C /* CCSBackgroundLayerView.h */,
+				39F278D2184C580D00B5A19C /* CCSBackgroundLayerView.m */,
+				39F278EE184C580D00B5A19C /* CCSMaskLayerView.h */,
+				39F278EF184C580D00B5A19C /* CCSMaskLayerView.m */,
+				39F278F0184C580D00B5A19C /* CCSNormalLayerView.h */,
+				39F278F1184C580D00B5A19C /* CCSNormalLayerView.m */,
+				39F278F4184C580D00B5A19C /* CCSTouchLayerDelegate.h */,
+				39F278F5184C580D00B5A19C /* CCSTouchLayerView.h */,
+				39F278F6184C580D00B5A19C /* CCSTouchLayerView.m */,
+			);
+			name = CCSLayer;
+			sourceTree = "<group>";
+		};
+		39F27A64184C5C1300B5A19C /* CCSGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				39F278E3184C580D00B5A19C /* CCSCrossLine.h */,
+				39F278E4184C580D00B5A19C /* CCSCrossLine.m */,
+				39F278E5184C580D00B5A19C /* CCSCurve.h */,
+				39F278E6184C580D00B5A19C /* CCSCurve.m */,
+				39F278EC184C580D00B5A19C /* CCSMask.h */,
+				39F278ED184C580D00B5A19C /* CCSMask.m */,
+				39F278F2184C580D00B5A19C /* CCSOriginalPoint.h */,
+				39F278F3184C580D00B5A19C /* CCSOriginalPoint.m */,
+				39F278E7184C580D00B5A19C /* CCSGraphicsView.h */,
+				39F278E8184C580D00B5A19C /* CCSGraphicsView.m */,
+				39F278CD184C580D00B5A19C /* CCSAxis.h */,
+				39F278CE184C580D00B5A19C /* CCSAxis.m */,
+			);
+			name = CCSGraphics;
+			sourceTree = "<group>";
+		};
+		39F27A66184C5D8300B5A19C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				39F278D9184C580D00B5A19C /* CCSChartData.h */,
+				39F278DA184C580D00B5A19C /* CCSChartData.m */,
+				39F278DB184C580D00B5A19C /* CCSChartDelegate.h */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		39F27A67184C5D9600B5A19C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				39F278D5184C580D00B5A19C /* CCSBaseModel.h */,
+				39F278D6184C580D00B5A19C /* CCSBaseModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		A69DD0AB174CCB870012B2A0 = {
 			isa = PBXGroup;
 			children = (
 				A69DD0F2174CCC6C0012B2A0 /* CocoaChartsSample */,
 				A69DD13B174CCC6C0012B2A0 /* CocoaChartsSampleTests */,
 				A69DD16B174CCCCE0012B2A0 /* CocoaCharts */,
+				39F278CC184C580D00B5A19C /* CoCoaChartsLib */,
+				39F278F7184C580D00B5A19C /* TaLib */,
 				A69DD0B6174CCB870012B2A0 /* Frameworks */,
 				A69DD0B5174CCB870012B2A0 /* Products */,
 			);
@@ -245,6 +945,9 @@
 		A69DD0F2174CCC6C0012B2A0 /* CocoaChartsSample */ = {
 			isa = PBXGroup;
 			children = (
+				39F27A68184C5EB500B5A19C /* RootView.xib */,
+				39F27A69184C5EB500B5A19C /* RootViewController.h */,
+				39F27A6A184C5EB500B5A19C /* RootViewController.m */,
 				A69DD0F3174CCC6C0012B2A0 /* CCSAppDelegate.h */,
 				A69DD0F4174CCC6C0012B2A0 /* CCSAppDelegate.m */,
 				A69DD0F5174CCC6C0012B2A0 /* CCSCandleStickChartViewController.h */,
@@ -457,6 +1160,8 @@
 				A69DD161174CCC6C0012B2A0 /* Default.png in Resources */,
 				A69DD162174CCC6C0012B2A0 /* Default@2x.png in Resources */,
 				A69DD163174CCC6C0012B2A0 /* CCSViewController.xib in Resources */,
+				39F27A6B184C5EB500B5A19C /* RootView.xib in Resources */,
+				39F279C0184C580E00B5A19C /* ta_retcode.csv in Resources */,
 				A69DD164174CCC6C0012B2A0 /* InfoPlist.strings in Resources */,
 				A69DD168174CCC6C0012B2A0 /* InfoPlist.strings in Resources */,
 			);
@@ -493,50 +1198,233 @@
 			buildActionMask = 2147483647;
 			files = (
 				A69DD141174CCC6C0012B2A0 /* CCSAppDelegate.m in Sources */,
+				39F279C7184C580E00B5A19C /* ta_ADXR.c in Sources */,
+				39F27A5C184C580E00B5A19C /* ta_TYPPRICE.c in Sources */,
+				39F27A09184C580E00B5A19C /* ta_CDLTAKURI.c in Sources */,
+				39F279B3184C580E00B5A19C /* CCSChartView.m in Sources */,
 				A69DD142174CCC6C0012B2A0 /* CCSCandleStickChartViewController.m in Sources */,
+				39F279E9184C580E00B5A19C /* ta_CDLGRAVESTONEDOJI.c in Sources */,
+				39F27A25184C580E00B5A19C /* ta_LINEARREG_SLOPE.c in Sources */,
 				A69DD156174CCC6C0012B2A0 /* CCSGridChartViewController.m in Sources */,
+				39F27A44184C580E00B5A19C /* ta_ROCP.c in Sources */,
+				39F27A5D184C580E00B5A19C /* ta_ULTOSC.c in Sources */,
+				39F27A1C184C580E00B5A19C /* ta_HT_DCPHASE.c in Sources */,
+				39F279F0184C580E00B5A19C /* ta_CDLHIKKAKEMOD.c in Sources */,
+				39F279E7184C580E00B5A19C /* ta_CDLEVENINGSTAR.c in Sources */,
+				39F27A40184C580E00B5A19C /* ta_PLUS_DM.c in Sources */,
+				39F27A08184C580E00B5A19C /* ta_CDLSTICKSANDWICH.c in Sources */,
+				39F279D7184C580E00B5A19C /* ta_CDL3OUTSIDE.c in Sources */,
+				39F27A03184C580E00B5A19C /* ta_CDLSEPARATINGLINES.c in Sources */,
+				39F279F2184C580E00B5A19C /* ta_CDLIDENTICAL3CROWS.c in Sources */,
 				A69DD157174CCC6C0012B2A0 /* CCSLineChartViewController.m in Sources */,
+				39F27A3F184C580E00B5A19C /* ta_PLUS_DI.c in Sources */,
+				39F279AD184C580E00B5A19C /* CCSBackgroundLayerView.m in Sources */,
 				A63AD43C1831F641007A0C07 /* CCSMinusStickChart.m in Sources */,
+				39F279E0184C580E00B5A19C /* ta_CDLCOUNTERATTACK.c in Sources */,
+				39F279F9184C580E00B5A19C /* ta_CDLLONGLINE.c in Sources */,
+				39F279D2184C580E00B5A19C /* ta_CCI.c in Sources */,
+				39F279B0184C580E00B5A19C /* CCSBaseView.m in Sources */,
+				39F279C2184C580E00B5A19C /* ta_ACOS.c in Sources */,
+				39F27A04184C580E00B5A19C /* ta_CDLSHOOTINGSTAR.c in Sources */,
 				A69DD158174CCC6C0012B2A0 /* CCSMACandleStickChartViewController.m in Sources */,
 				A63AD44818320AF5007A0C07 /* CCSMACDChartViewController.m in Sources */,
+				39F27A3A184C580E00B5A19C /* ta_MOM.c in Sources */,
+				39F279BC184C580E00B5A19C /* CCSOriginalPoint.m in Sources */,
+				39F27A34184C580E00B5A19C /* ta_MIN.c in Sources */,
+				39F279BF184C580E00B5A19C /* ta_retcode.c in Sources */,
 				A69DD159174CCC6C0012B2A0 /* CCSMAStickChartViewController.m in Sources */,
+				39F27A43184C580E00B5A19C /* ta_ROC.c in Sources */,
+				39F27A5B184C580E00B5A19C /* ta_TSF.c in Sources */,
+				39F279D5184C580E00B5A19C /* ta_CDL3INSIDE.c in Sources */,
+				39F27A60184C580E00B5A19C /* ta_WCLPRICE.c in Sources */,
+				39F279E6184C580E00B5A19C /* ta_CDLEVENINGDOJISTAR.c in Sources */,
+				39F27A02184C580E00B5A19C /* ta_CDLRISEFALL3METHODS.c in Sources */,
 				A69DD15A174CCC6C0012B2A0 /* CCSPieChartViewController.m in Sources */,
+				39F27A3B184C580E00B5A19C /* ta_MULT.c in Sources */,
+				39F279C3184C580E00B5A19C /* ta_AD.c in Sources */,
+				39F27A58184C580E00B5A19C /* ta_TRANGE.c in Sources */,
 				A69DD15B174CCC6C0012B2A0 /* CCSPizzaChartViewController.m in Sources */,
+				39F27A1A184C580E00B5A19C /* ta_FLOOR.c in Sources */,
+				39F27A2B184C580E00B5A19C /* ta_MACDFIX.c in Sources */,
+				39F27A24184C580E00B5A19C /* ta_LINEARREG_INTERCEPT.c in Sources */,
+				39F27A0E184C580E00B5A19C /* ta_CDLUPSIDEGAP2CROWS.c in Sources */,
+				39F279E2184C580E00B5A19C /* ta_CDLDOJI.c in Sources */,
 				A69DD15C174CCC6C0012B2A0 /* CCSSpiderWebChartViewController.m in Sources */,
+				39F27A61184C580E00B5A19C /* ta_WILLR.c in Sources */,
+				39F27A33184C580E00B5A19C /* ta_MIDPRICE.c in Sources */,
+				39F27A11184C580E00B5A19C /* ta_CMO.c in Sources */,
+				39F279CE184C580E00B5A19C /* ta_AVGPRICE.c in Sources */,
+				39F279EC184C580E00B5A19C /* ta_CDLHARAMI.c in Sources */,
+				39F279D9184C580E00B5A19C /* ta_CDL3WHITESOLDIERS.c in Sources */,
 				A66797CB1834BE10005B0D43 /* CCSStackedAreaChartViewController.m in Sources */,
+				39F27A2F184C580E00B5A19C /* ta_MAXINDEX.c in Sources */,
 				A69DD15D174CCC6C0012B2A0 /* CCSStickChartViewController.m in Sources */,
+				39F279B6184C580E00B5A19C /* CCSCurve.m in Sources */,
+				39F27A4B184C580E00B5A19C /* ta_SINH.c in Sources */,
 				A66797CE1834C8FE005B0D43 /* CCSBandAreaChart.m in Sources */,
+				39F27A27184C580E00B5A19C /* ta_LOG10.c in Sources */,
+				39F279F6184C580E00B5A19C /* ta_CDLKICKINGBYLENGTH.c in Sources */,
+				39F279D4184C580E00B5A19C /* ta_CDL3BLACKCROWS.c in Sources */,
 				A69DD15E174CCC6C0012B2A0 /* CCSViewController.m in Sources */,
+				39F279B2184C580E00B5A19C /* CCSChartModel.m in Sources */,
 				A69DD165174CCC6C0012B2A0 /* main.m in Sources */,
 				A63AD44218320302007A0C07 /* CCSMACDChart.m in Sources */,
 				A69DD193174CCCCE0012B2A0 /* CCSBaseChartView.m in Sources */,
+				39F279BB184C580E00B5A19C /* CCSNormalLayerView.m in Sources */,
+				39F279DB184C580E00B5A19C /* ta_CDLADVANCEBLOCK.c in Sources */,
+				39F279CB184C580E00B5A19C /* ta_ASIN.c in Sources */,
+				39F27A48184C580E00B5A19C /* ta_SAR.c in Sources */,
 				A68BD33118337FA300D1F191 /* CCSRadarChart.m in Sources */,
+				39F279AF184C580E00B5A19C /* CCSBaseModel.m in Sources */,
+				39F27A06184C580E00B5A19C /* ta_CDLSPINNINGTOP.c in Sources */,
+				39F27A20184C580E00B5A19C /* ta_HT_TRENDMODE.c in Sources */,
+				39F279B4184C580E00B5A19C /* CCSCoordinate.m in Sources */,
 				A68BD32E1833649300D1F191 /* CCSAreaChartViewController.m in Sources */,
+				39F279F5184C580E00B5A19C /* ta_CDLKICKING.c in Sources */,
+				39F279B8184C580E00B5A19C /* CCSLayerView.m in Sources */,
 				A69DD194174CCCCE0012B2A0 /* CCSBaseData.m in Sources */,
+				39F27A45184C580E00B5A19C /* ta_ROCR.c in Sources */,
+				39F27A05184C580E00B5A19C /* ta_CDLSHORTLINE.c in Sources */,
 				A69DD195174CCCCE0012B2A0 /* CCSCandleStickChart.m in Sources */,
 				A69DD196174CCCCE0012B2A0 /* CCSCandleStickChartData.m in Sources */,
+				39F27A14184C580E00B5A19C /* ta_COSH.c in Sources */,
+				39F27A38184C580E00B5A19C /* ta_MINUS_DI.c in Sources */,
 				A69DD197174CCCCE0012B2A0 /* CCSGridChart.m in Sources */,
+				39F279BD184C580E00B5A19C /* CCSTouchLayerView.m in Sources */,
+				39F279EA184C580E00B5A19C /* ta_CDLHAMMER.c in Sources */,
+				39F27A56184C580E00B5A19C /* ta_TANH.c in Sources */,
+				39F279F3184C580E00B5A19C /* ta_CDLINNECK.c in Sources */,
+				39F27A46184C580E00B5A19C /* ta_ROCR100.c in Sources */,
+				39F279E5184C580E00B5A19C /* ta_CDLENGULFING.c in Sources */,
 				A69DD198174CCCCE0012B2A0 /* CCSLineChart.m in Sources */,
+				39F27A16184C580E00B5A19C /* ta_DIV.c in Sources */,
+				39F27A1F184C580E00B5A19C /* ta_HT_TRENDLINE.c in Sources */,
+				39F279C9184C580E00B5A19C /* ta_AROON.c in Sources */,
+				39F279DF184C580E00B5A19C /* ta_CDLCONCEALBABYSWALL.c in Sources */,
+				39F279D8184C580E00B5A19C /* ta_CDL3STARSINSOUTH.c in Sources */,
+				39F279EE184C580E00B5A19C /* ta_CDLHIGHWAVE.c in Sources */,
+				39F27A5A184C580E00B5A19C /* ta_TRIX.c in Sources */,
+				39F279C1184C580E00B5A19C /* ta_version.c in Sources */,
+				39F27A4C184C580E00B5A19C /* ta_SMA.c in Sources */,
+				39F27A0A184C580E00B5A19C /* ta_CDLTASUKIGAP.c in Sources */,
+				39F27A62184C580E00B5A19C /* ta_WMA.c in Sources */,
+				39F279D1184C580E00B5A19C /* ta_BOP.c in Sources */,
+				39F27A22184C580E00B5A19C /* ta_LINEARREG.c in Sources */,
+				39F279CA184C580E00B5A19C /* ta_AROONOSC.c in Sources */,
+				39F279CC184C580E00B5A19C /* ta_ATAN.c in Sources */,
+				39F27A4F184C580E00B5A19C /* ta_STOCH.c in Sources */,
+				39F27A31184C580E00B5A19C /* ta_MFI.c in Sources */,
+				39F279DC184C580E00B5A19C /* ta_CDLBELTHOLD.c in Sources */,
 				A69DD199174CCCCE0012B2A0 /* CCSLineData.m in Sources */,
+				39F279BA184C580E00B5A19C /* CCSMaskLayerView.m in Sources */,
+				39F27A37184C580E00B5A19C /* ta_MINMAXINDEX.c in Sources */,
+				39F279C6184C580E00B5A19C /* ta_ADX.c in Sources */,
+				39F27A51184C580E00B5A19C /* ta_STOCHRSI.c in Sources */,
+				39F27A18184C580E00B5A19C /* ta_EMA.c in Sources */,
+				39F27A3D184C580E00B5A19C /* ta_NVI.c in Sources */,
+				39F279C4184C580E00B5A19C /* ta_ADD.c in Sources */,
+				39F27A0F184C580E00B5A19C /* ta_CDLXSIDEGAP3METHODS.c in Sources */,
 				A66797D11835E205005B0D43 /* CCSBandAreaChartViewController.m in Sources */,
+				39F27A29184C580E00B5A19C /* ta_MACD.c in Sources */,
+				39F27A5F184C580E00B5A19C /* ta_VAR.c in Sources */,
 				A63AD43F1831F6CC007A0C07 /* CCSMinusStickChartViewController.m in Sources */,
+				39F27A42184C580E00B5A19C /* ta_PVI.c in Sources */,
+				39F279B7184C580E00B5A19C /* CCSGraphicsView.m in Sources */,
+				39F279F4184C580E00B5A19C /* ta_CDLINVERTEDHAMMER.c in Sources */,
+				39F27A6C184C5EB500B5A19C /* RootViewController.m in Sources */,
+				39F27A4E184C580E00B5A19C /* ta_STDDEV.c in Sources */,
+				39F279BE184C580E00B5A19C /* ta_global.c in Sources */,
+				39F27A2C184C580E00B5A19C /* ta_MAMA.c in Sources */,
+				39F27A5E184C580E00B5A19C /* ta_utility.c in Sources */,
+				39F279E3184C580E00B5A19C /* ta_CDLDOJISTAR.c in Sources */,
+				39F27A2D184C580E00B5A19C /* ta_MAVP.c in Sources */,
 				A69DD19A174CCCCE0012B2A0 /* CCSMACandleStickChart.m in Sources */,
+				39F279DD184C580E00B5A19C /* ta_CDLBREAKAWAY.c in Sources */,
+				39F27A3C184C580E00B5A19C /* ta_NATR.c in Sources */,
+				39F27A1B184C580E00B5A19C /* ta_HT_DCPERIOD.c in Sources */,
+				39F27A07184C580E00B5A19C /* ta_CDLSTALLEDPATTERN.c in Sources */,
+				39F27A35184C580E00B5A19C /* ta_MININDEX.c in Sources */,
+				39F27A32184C580E00B5A19C /* ta_MIDPOINT.c in Sources */,
 				A69DD19B174CCCCE0012B2A0 /* CCSMAStickChart.m in Sources */,
 				A69DD19C174CCCCE0012B2A0 /* CCSPieChart.m in Sources */,
+				39F27A55184C580E00B5A19C /* ta_TAN.c in Sources */,
+				39F27A2A184C580E00B5A19C /* ta_MACDEXT.c in Sources */,
+				39F27A2E184C580E00B5A19C /* ta_MAX.c in Sources */,
 				A69DD19D174CCCCE0012B2A0 /* CCSPizzaChart.m in Sources */,
+				39F27A21184C580E00B5A19C /* ta_KAMA.c in Sources */,
+				39F27A0C184C580E00B5A19C /* ta_CDLTRISTAR.c in Sources */,
 				A6541AD2183E0183008393DE /* CCSSlipStickChart.m in Sources */,
+				39F27A13184C580E00B5A19C /* ta_COS.c in Sources */,
+				39F279D6184C580E00B5A19C /* ta_CDL3LINESTRIKE.c in Sources */,
+				39F279CF184C580E00B5A19C /* ta_BBANDS.c in Sources */,
+				39F27A50184C580E00B5A19C /* ta_STOCHF.c in Sources */,
+				39F27A1D184C580E00B5A19C /* ta_HT_PHASOR.c in Sources */,
+				39F279C5184C580E00B5A19C /* ta_ADOSC.c in Sources */,
+				39F27A0B184C580E00B5A19C /* ta_CDLTHRUSTING.c in Sources */,
+				39F279D0184C580E00B5A19C /* ta_BETA.c in Sources */,
+				39F27A4A184C580E00B5A19C /* ta_SIN.c in Sources */,
+				39F279DA184C580E00B5A19C /* ta_CDLABANDONEDBABY.c in Sources */,
+				39F27A12184C580E00B5A19C /* ta_CORREL.c in Sources */,
+				39F279FA184C580E00B5A19C /* ta_CDLMARUBOZU.c in Sources */,
+				39F279FC184C580E00B5A19C /* ta_CDLMATHOLD.c in Sources */,
+				39F279FF184C580E00B5A19C /* ta_CDLONNECK.c in Sources */,
+				39F279ED184C580E00B5A19C /* ta_CDLHARAMICROSS.c in Sources */,
+				39F27A26184C580E00B5A19C /* ta_LN.c in Sources */,
 				A66797C81834BD53005B0D43 /* CCSStackedAreaChart.m in Sources */,
 				A69DD19E174CCCCE0012B2A0 /* CCSSpiderWebChart.m in Sources */,
+				39F279EB184C580E00B5A19C /* ta_CDLHANGINGMAN.c in Sources */,
+				39F279F8184C580E00B5A19C /* ta_CDLLONGLEGGEDDOJI.c in Sources */,
+				39F279E1184C580E00B5A19C /* ta_CDLDARKCLOUDCOVER.c in Sources */,
+				39F279E8184C580E00B5A19C /* ta_CDLGAPSIDESIDEWHITE.c in Sources */,
+				39F279B9184C580E00B5A19C /* CCSMask.m in Sources */,
 				A69DD19F174CCCCE0012B2A0 /* CCSStickChart.m in Sources */,
 				A69DD1A0174CCCCE0012B2A0 /* CCSStickChartData.m in Sources */,
 				A69DD1A1174CCCCE0012B2A0 /* CCSTitledLine.m in Sources */,
+				39F27A52184C580E00B5A19C /* ta_SUB.c in Sources */,
+				39F27A57184C580E00B5A19C /* ta_TEMA.c in Sources */,
+				39F27A53184C580E00B5A19C /* ta_SUM.c in Sources */,
+				39F279CD184C580E00B5A19C /* ta_ATR.c in Sources */,
+				39F279AC184C580E00B5A19C /* CCSAxisLayerView.m in Sources */,
+				39F27A19184C580E00B5A19C /* ta_EXP.c in Sources */,
+				39F279DE184C580E00B5A19C /* ta_CDLCLOSINGMARUBOZU.c in Sources */,
+				39F27A36184C580E00B5A19C /* ta_MINMAX.c in Sources */,
+				39F27A01184C580E00B5A19C /* ta_CDLRICKSHAWMAN.c in Sources */,
+				39F27A17184C580E00B5A19C /* ta_DX.c in Sources */,
 				A69DD1A2174CCCCE0012B2A0 /* CCSTitleValue.m in Sources */,
 				A68BD32B1833621400D1F191 /* CCSAreaChart.m in Sources */,
+				39F27A59184C580E00B5A19C /* ta_TRIMA.c in Sources */,
+				39F27A15184C580E00B5A19C /* ta_DEMA.c in Sources */,
 				A69DD1A3174CCCCE0012B2A0 /* CCSTitleValueColor.m in Sources */,
+				39F27A30184C580E00B5A19C /* ta_MEDPRICE.c in Sources */,
+				39F279D3184C580E00B5A19C /* ta_CDL2CROWS.c in Sources */,
+				39F279FD184C580E00B5A19C /* ta_CDLMORNINGDOJISTAR.c in Sources */,
+				39F27A54184C580E00B5A19C /* ta_T3.c in Sources */,
+				39F27A28184C580E00B5A19C /* ta_MA.c in Sources */,
+				39F27A23184C580E00B5A19C /* ta_LINEARREG_ANGLE.c in Sources */,
+				39F279B1184C580E00B5A19C /* CCSChartData.m in Sources */,
+				39F27A47184C580E00B5A19C /* ta_RSI.c in Sources */,
 				A68BD334183384F800D1F191 /* CCSRadarChartViewController.m in Sources */,
+				39F279EF184C580E00B5A19C /* ta_CDLHIKKAKE.c in Sources */,
+				39F27A49184C580E00B5A19C /* ta_SAREXT.c in Sources */,
+				39F27A4D184C580E00B5A19C /* ta_SQRT.c in Sources */,
+				39F279F1184C580E00B5A19C /* ta_CDLHOMINGPIGEON.c in Sources */,
+				39F279AB184C580E00B5A19C /* CCSAxis.m in Sources */,
+				39F279B5184C580E00B5A19C /* CCSCrossLine.m in Sources */,
+				39F279FB184C580E00B5A19C /* ta_CDLMATCHINGLOW.c in Sources */,
+				39F279F7184C580E00B5A19C /* ta_CDLLADDERBOTTOM.c in Sources */,
+				39F27A3E184C580E00B5A19C /* ta_OBV.c in Sources */,
 				A69DD1A4174CCCCE0012B2A0 /* CCSTitleValues.m in Sources */,
+				39F27A39184C580E00B5A19C /* ta_MINUS_DM.c in Sources */,
 				A63AD445183203EF007A0C07 /* CCSMACDData.m in Sources */,
 				A69DD1A5174CCCCE0012B2A0 /* CCSTitleValuesColor.m in Sources */,
+				39F279C8184C580E00B5A19C /* ta_APO.c in Sources */,
+				39F27A10184C580E00B5A19C /* ta_CEIL.c in Sources */,
+				39F27A1E184C580E00B5A19C /* ta_HT_SINE.c in Sources */,
+				39F27A00184C580E00B5A19C /* ta_CDLPIERCING.c in Sources */,
+				39F279E4184C580E00B5A19C /* ta_CDLDRAGONFLYDOJI.c in Sources */,
+				39F27A41184C580E00B5A19C /* ta_PPO.c in Sources */,
+				39F279FE184C580E00B5A19C /* ta_CDLMORNINGSTAR.c in Sources */,
+				39F27A0D184C580E00B5A19C /* ta_CDLUNIQUE3RIVER.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
